@@ -9,7 +9,6 @@ mongoose.connect('mongodb://localhost/todo_app', {
   useUnifiedTopology: true
 });
 
-
 // Middleware
 app.use(express.json());
 
